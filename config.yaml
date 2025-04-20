@@ -1,0 +1,33 @@
+domains:
+  - https://www.virgio.com/
+  - https://www.tatacliq.com/
+  - https://www.nykaafashion.com/
+  - https://www.westside.com/
+
+product_url_patterns:
+  - "/product/"
+  - "/p/"
+  - "/item/"
+  - "/shop/"
+  - "/c/"
+  - "/category/"
+  - "/men"
+  - "/women"
+  - "/brands"
+  - "/clothing"
+  - "/footwear"
+  - "/accessories"
+  - "/sale"
+  - "/offers"
+  - "/deals"
+  - "/electronics"
+
+max_depth: 5
+concurrency: 50
+render_timeout: 30000
+use_playwright: true
+
+playwright_domains:
+  - tatacliq.com
+  - nykaafashion.com
+playwright_max_depth: 2
